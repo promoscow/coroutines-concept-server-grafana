@@ -2237,7 +2237,7 @@
       },
       "id": 129,
       "panels": [],
-      "repeat": "persistence_counts",
+      "repeat": null,
       "title": "JVM Memory Pools (Heap)",
       "type": "row"
     },
@@ -2266,7 +2266,7 @@
       },
       "gridPos": {
         "h": 7,
-        "w": 8,
+        "w": 24,
         "x": 0,
         "y": 36
       },
@@ -2293,6 +2293,7 @@
       "points": false,
       "renderer": "flot",
       "repeat": "jvm_memory_pool_heap",
+      "repeatDirection": "h",
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -2415,7 +2416,7 @@
       },
       "gridPos": {
         "h": 7,
-        "w": 8,
+        "w": 24,
         "x": 0,
         "y": 44
       },
@@ -2442,6 +2443,7 @@
       "points": false,
       "renderer": "flot",
       "repeat": "jvm_memory_pool_nonheap",
+      "repeatDirection": "h",
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -3597,7 +3599,7 @@
         "hide": 0,
         "includeAll": true,
         "label": "JVM Memory Pools Heap",
-        "multi": false,
+        "multi": true,
         "multiFormat": "glob",
         "name": "jvm_memory_pool_heap",
         "options": [],
@@ -3630,7 +3632,7 @@
         "hide": 0,
         "includeAll": true,
         "label": "JVM Memory Pools Non-Heap",
-        "multi": false,
+        "multi": true,
         "multiFormat": "glob",
         "name": "jvm_memory_pool_nonheap",
         "options": [],
